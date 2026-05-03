@@ -37,11 +37,10 @@ public final class CommandCompletionScenarios {
         String last = "b";
     }
 
-    // TC-06 — Convert class to record via CC (language level 16+).
+    // TC-06 — Convert class to record via CC.
     public static final class PointForRecord {
         private final int x;
         private final int y;
-
         public PointForRecord(int x, int y) {
             this.x = x;
             this.y = y;
