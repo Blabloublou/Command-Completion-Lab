@@ -12,6 +12,7 @@ public final class JavadocGenerationStress {
     private JavadocGenerationStress() {
     }
 
+    // BUG-02 — Javadoc / documentation generation under stress (very large parameter list).
     public static void invokeForDocumentationStress(
             String p01, String p02, String p03, String p04, String p05, String p06,
             String p07, String p08, String p09, String p10, String p11, String p12,
