@@ -8,7 +8,6 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/** Steps alignés sur le scénario List.of utilisé dans {@code CommandCompletionScenarios}. */
 public final class LabSanitySteps {
 
     private List<String> list;

@@ -17,7 +17,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.version>2.1.10</kotlin.version>
         <cucumber.version>7.34.3</cucumber.version>
-        <!-- 5.11.x ships Platform 1.11; cucumber-junit-platform-engine 7.34.x needs DiscoveryIssueReporter (Platform 1.13+). -->
         <junit.version>5.14.4</junit.version>
     </properties>
 
